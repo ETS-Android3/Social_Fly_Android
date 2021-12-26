@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "609849368730",
+    "firebase_url": "https://social-fly-gamnk-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "social-fly-gamnk",
+    "storage_bucket": "social-fly-gamnk.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:609849368730:android:ded57922a1d248bf157f23",
+        "android_client_info": {
+          "package_name": "com.gautam.socialfly"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "609849368730-dit53ggq90llnan4n2s4nhvdbu3vg43k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAUqer9ipgYfLP7RCrYbTCUAbb5xgJnIZk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "609849368730-dit53ggq90llnan4n2s4nhvdbu3vg43k.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,31 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.SocialFly" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+
+        <item name="colorPrimary">@color/white</item>
+        <item name="colorPrimaryVariant">@color/bg</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="android:textColorPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="android:textColorSecondary">@color/secondaryDark</item>
+        <item name="android:textColorSecondaryInverse">@color/secondarylight</item>
+        <item name="colorSecondary">@color/white</item>
+        <item name="colorSecondaryVariant">@color/white</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="roundimageview" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">20dp</item>
+        <item name="color">@color/black</item>
+    </style>
+
+    <style name="ThemeOverlay.myPopupTheme" parent="Theme.AppCompat.DayNight">
+        <item name="android:colorBackground">@color/black</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+</resources>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="1dp">
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/chatimg"
+            android:layout_marginTop="2dp"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:src="@drawable/avatar"/>
+        <TextView
+            android:id="@+id/show_message"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:layout_marginTop="2dp"
+            android:layout_marginBottom="2dp"
+            android:layout_marginStart="5dp"
+            android:paddingStart="10dp"
+            android:paddingEnd="15dp"
+            android:text="Hello Gautam!!"
+            android:fontFamily="@font/inter_medium"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:background="@drawable/chat_left_background"
+            android:layout_toRightOf="@id/chatimg"/>
+        <TextView
+            android:id="@+id/show_seen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:text="seen"
+            android:visibility="gone"
+            android:layout_marginTop="-4dp"
+            android:layout_marginEnd="2dp"
+            android:layout_below="@id/show_message"/>
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/message_img"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_marginStart="5dp"
+            android:adjustViewBounds="true"
+            android:scaleType="fitCenter"
+            android:visibility="gone"
+            app:shapeAppearanceOverlay="@style/roundimageview"
+            android:padding="2dp"
+            android:background="#dddddd"
+            android:layout_toRightOf="@id/chatimg"/>
+        <ImageView
+            android:id="@+id/message_file"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginStart="5dp"
+            android:layout_toRightOf="@id/chatimg"/>
+
+</RelativeLayout>
