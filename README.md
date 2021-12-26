@@ -10,6 +10,6 @@ Our Project <b>“Social Fly”</b> is an android application for users to insta
 
 <img src="images/Splashscreen.png" width=220> <img src="images/Signup.png" width=220> <img src="images/Login.png" width=220> <img src="images/Code Verification.png" width=220>
 
-<img src="images/Chat activity.png" width=220> <img src="images/Chat activity.png" width=220> <img src="images/Chat activity.png" width=220> <img src="images/Chat activity.png" width=220>
+<img src="images/Chats.png" width=220> <img src="images/Contacts.png" width=220> <img src="images/Requests.png" width=220> <img src="images/Chat activity.png" width=220>
 
-<img src="images/Chat activity.png" width=220> <img src="images/Chat activity.png" width=220> <img src="images/Chat activity.png" width=220> <img src="images/Chat activity.png" width=220>
+<img src="images/Search User.png" width=220> <img src="images/Show Profile.png" width=220> <img src="images/View Profile.png" width=220> <img src="images/Reset Password.png" width=220>
