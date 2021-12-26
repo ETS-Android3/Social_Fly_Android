@@ -7,4 +7,4 @@ Moreover, after the pandemic crisis, consumers are not so opposed to messaging a
 
 Our Project “Social Fly” is an android application for users to instantly communicate with each other. An the most important part of building a good chat application is focus on the data flow on web and database . This project spends a good amount of research to find the most appropriate technology for deliver the data flow, which is Firebase Authentication to authenticate users, Firebase Realtime database for storing data, Firebase Storage to store documents and pictures, Firebase for text chat and Jitsi Meet for video and audio and many more.
 
-<img src="images/chatactivity.png">
+<img src="images/Chat activity.png" width=220>
